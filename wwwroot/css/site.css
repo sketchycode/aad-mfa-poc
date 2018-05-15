@@ -1,13 +1,14 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: font-family: "Roboto", sans-serif;
 }
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 /* Carousel */
@@ -32,4 +33,39 @@
     .carousel-caption {
         display: none;
     }
+}
+
+.header-container {
+    background-color: #afc8cd;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+h1 {
+    font-size: 48px;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.landing-body-container {
+    padding: 20px 30px;
+}
+
+.landing-body-container p {
+    font-size: 20px;
+}
+
+.body-content {
+    background-color: #565656;
+}
+
+footer {
+    padding: 0px 30px;
+}
+
+.navbar-text {
+    padding-left: 15px;
 }
