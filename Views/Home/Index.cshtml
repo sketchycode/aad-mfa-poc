@@ -7,5 +7,12 @@
 </div>
 
 <div class="landing-body-container">
-    <p>Current date/time: @DateTime.Now</p>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <p>Current date/time: @DateTime.Now</p>
+    }
+    else
+    {
+        <p><a asp-area="" asp-controller="Account" asp-action="Signin" style="color: white;text-decoration: underline;">Sign in</a> to get started.</p>
+    }
 </div>

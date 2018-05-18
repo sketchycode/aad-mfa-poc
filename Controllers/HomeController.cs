@@ -9,7 +9,6 @@ using aad_mfa_poc.Models;
 
 namespace aad_mfa_poc.Controllers
 {
-    [Authorize]
     public class HomeController : Controller
     {
         public IActionResult Index()
